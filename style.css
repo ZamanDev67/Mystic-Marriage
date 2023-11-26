@@ -16,6 +16,9 @@ h2{
 h3{
     font-size: 30px;
 }
+hr{
+    background-color:#fec14a;
+}
 .center {
   display: block;
   margin-left: auto;
