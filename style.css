@@ -26,6 +26,9 @@ hr{
 .squeeze {
     border-image: url('/media/examples/border-diamonds.png') 30 fill / 30px / 30px space;
 }
+.tile{
+    background-repeat: repeat-x;
+}
 .center {
   display: block;
   margin-left: auto;
