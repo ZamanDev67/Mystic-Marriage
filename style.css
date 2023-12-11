@@ -1,10 +1,10 @@
 ﻿body
 {
     font-family: 'Yeseva One', 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #040b1c;
+    color: #091d4e;
     background-color: #ffe8de;
 }
-h1,h2,h3{
+h1,h2,h3,p{
     text-align: center;
 }
 h1{
