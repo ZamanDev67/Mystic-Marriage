@@ -26,7 +26,8 @@ hr{
 .squeeze {
     border-image: url('/media/examples/border-diamonds.png') 30 fill / 30px / 30px space;
 }
-.tile{
+rightflower{
+    background-image: url('IMAGES/flowerban.png');
     background-repeat: repeat-x;
 }
 .center {
