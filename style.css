@@ -44,7 +44,7 @@ rightflower{
 <button class="button-50" role="button">Button 50</button>
 
 /* CSS */
-button {
+.button {
   appearance: button;
   background-color: #000;
   background-image: none;
@@ -71,11 +71,11 @@ button {
   white-space: nowrap;
 }
 
-button:focus {
+.button:focus {
   text-decoration: none;
 }
 
-button:hover {
+.button:hover {
   text-decoration: none;
 }
 
