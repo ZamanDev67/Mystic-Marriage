@@ -26,13 +26,24 @@ hr{
 }
 
 
+a {
+  background-color: #8d3727;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-/* Non-Demo Styles */
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+a:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
 }
 
 .squeeze {
