@@ -2,7 +2,7 @@
 {
     font-family: 'Yeseva One', 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #182a55;
-    background-color: #ffe8de;
+    background-color: white;
 }
 h1,h2,h3,p{
     text-align: center;
@@ -17,7 +17,7 @@ h3{
     font-size: 24px;
 }
 p{
-    font-family: arial;
+    font-family: 'Oswald';
 }
 hr{
     color:#fec14a;
