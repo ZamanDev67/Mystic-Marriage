@@ -2,7 +2,7 @@
 {
     font-family: 'Yeseva One', 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #182a55;
-    background-color:#fffbee;
+    background-image: url(IMAGES/background_dragon.png);
     cursor: url(IMAGES/rat_cursor.png), auto;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
 }
 .parallax {
   /* The image used */
-  background-image: url(IMAGES/background_dragon.png);
+
 
   /* Set a specific height */
   min-height: 500px;
