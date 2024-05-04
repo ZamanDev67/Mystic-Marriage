@@ -3,7 +3,7 @@
     font-family: 'Yeseva One', 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #182a55;
     background-color: #FCF5E5;
-    cursor: url('/IMAGES/rat_cursor.png'), auto;
+    cursor: url(/IMAGES/rat_cursor.png), auto;
 }
 h1,h2,h3,p, a{
     text-align: center;
