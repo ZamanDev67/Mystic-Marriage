@@ -54,6 +54,7 @@ a:focus {
 a:hover {
   text-decoration: none;
   background: #ce7e22;
+  cursor: url(IMAGES/rat_cursor_hover.png), auto;
 }
 
 a:active {
