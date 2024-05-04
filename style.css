@@ -34,7 +34,23 @@ hr{
     background-color:#fec14a;
 }
 
+.nav {
+    border: 1px solid black;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* « The magic. */
+}
 
+.nav li {
+    display: inline; /* « More magic. */
+}
+
+.nav a {
+    display: inline-block; /* « Last bit of magic. */
+    padding: 10px;
+}
 
 .squeeze {
     border-image: url('/media/examples/border-diamonds.png') 30 fill / 30px / 30px space;
@@ -50,46 +66,3 @@ rightflower{
   width: 10%;
 }
 
-nav {
-  margin: 25px;
-  background: #f9f9f9;
-  padding: 16px;
-  .menuItems {
-    list-style: none;
-    display: flex;
-
-    li {
-      margin: 50px;
-
-      a {
-        text-decoration: none;
-        color: #8f8f8f;
-        font-size: 24px;
-        font-weight: 400;
-        transition: all 0.5s ease-in-out;
-        position: relative;
-        text-transform: uppercase;
-
-        &::before {
-          content: attr(data-item);
-          transition: 0.5s;
-          color: #8254ff;
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          width: 0;
-          overflow: hidden;
-        }
-
-        &:hover {
-          &::before {
-            width: 100%;
-            transition: all 0.5s ease-in-out;
-          }
-        }
-      }
-    }
-  }
-}
