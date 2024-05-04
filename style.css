@@ -39,11 +39,11 @@ a {
 }
 
 a:link {
-  color: #672E25;
+  color: black;
 }
 
 a:visited {
-  color: #672E25;
+  color: black;
 }
 
 a:focus {
@@ -53,7 +53,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  background: #ce7e22;
+  background: #d4af37;
   cursor: url(IMAGES/rat_cursor_hover.png), auto;
 }
 
