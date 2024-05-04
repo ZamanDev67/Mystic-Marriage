@@ -13,6 +13,8 @@
 }
 div{
     text-align: center;
+    background-color:#ded4b4;
+    width: 1000px;
 }
 h1,h2,h3,p, a{
     text-align: center;
