@@ -4,6 +4,15 @@
     color: #182a55;
     background-image: url(IMAGES/background_parchment_s.png);
     cursor: url(IMAGES/rat_cursor.png), auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+}
+div{
+    text-align: center;
 }
 h1,h2,h3,p, a{
     text-align: center;
@@ -17,34 +26,13 @@ h2{
 h3{
     font-size: 24px;
 }
-p{
-    font-family: 'Oswald';
-    font-size: 18px;
-}
+
 hr{
     color:#fec14a;
     background-color:#fec14a;
 }
 
 
-a {
-  background-color: #8d3727;
-  box-shadow: 0 5px 0 darkred;
-  color: white;
-  padding: 0.75em 1em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-a:hover {
-  background-color: #cf5610;
-  cursor: pointer;
-}
-
-a:active {
-  box-shadow: none;
-  top: 5px;
-}
 
 .squeeze {
     border-image: url('/media/examples/border-diamonds.png') 30 fill / 30px / 30px space;
@@ -60,33 +48,77 @@ rightflower{
   width: 10%;
 }
 
+p{
+  font-family: 'Oswald';
+  font-size: 18px;
+  margin: 16px;
+  font-size: 96px;
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 1s ease-in-out;
+  position: relative;
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: white;
-  overflow: hidden;
-  width: 100%;
+  &::before {
+    content: attr(data-item);
+    transition: all 1s ease-in-out;
+    color: #8254ff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+  }
+
+  &:hover {
+    &::before {
+      width: 100%;
+    }
+  }
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+nav {
+  margin: 25px;
+  background: #f9f9f9;
+  padding: 16px;
+  .menuItems {
+    list-style: none;
+    display: flex;
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+    li {
+      margin: 50px;
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
+      a {
+        text-decoration: none;
+        color: #8f8f8f;
+        font-size: 24px;
+        font-weight: 400;
+        transition: all 0.5s ease-in-out;
+        position: relative;
+        text-transform: uppercase;
 
+        &::before {
+          content: attr(data-item);
+          transition: 0.5s;
+          color: #8254ff;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 0;
+          overflow: hidden;
+        }
+
+        &:hover {
+          &::before {
+            width: 100%;
+            transition: all 0.5s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
