@@ -65,6 +65,7 @@ rightflower{
 .topnav {
   background-color: white;
   overflow: hidden;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
