@@ -34,7 +34,35 @@ hr{
     background-color:#fec14a;
 }
 
+a {
+  outline-color: transparent;
+}
+
+a:link {
+  color: #672E25;
+}
+
+a:visited {
+  color: #672E25;
+}
+
+a:focus {
+  text-decoration: none;
+  background: #ce7e00;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #ce7e22;
+}
+
+a:active {
+  background: white;
+  color: #ce7e00;
+}
+
 .nav {
+    position: fixed;
     border: 1px solid black;
     border-width: 1px 0;
     list-style: none;
