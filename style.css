@@ -27,15 +27,15 @@
 div{
     text-align: center;
     background-image: url(IMAGES/background_parchment_s.png);
-    width: 1000px;
+    width: 67%;
 }
 h1,h2,h3,p, a{
     text-align: center;
 }
-h1, a{
+h1{
     font-size: 36px;
 }
-h2{
+h2, a{
     font-size: 30px;
 }
 h3{
