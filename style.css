@@ -2,7 +2,8 @@
 {
     font-family: 'Yeseva One', 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #182a55;
-    background-image: url(IMAGES/background_rug_purple.png);
+    background-color:#fffbee;
+    /*background-image: url(IMAGES/background_rug_purple.png);*/
     cursor: url(IMAGES/rat_cursor.png), auto;
     display: flex;
     flex-direction: column;
@@ -29,6 +30,7 @@ div{
     background-image: url(IMAGES/background_parchment_s.png);
     padding: 5%;
     width: 67%;
+    text-shadow: 2px 2px 4px #000000;
 }
 h1,h2,h3,p, a{
     text-align: center;
