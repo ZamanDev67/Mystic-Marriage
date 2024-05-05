@@ -4,6 +4,7 @@
     color: #182a55;
     /*background-color:#fffbee;*/
     background-image: url(IMAGES/background_stars.png);
+    background-size: 500px;
     cursor: url(IMAGES/rat_cursor.png), auto;
     display: flex;
     flex-direction: column;
