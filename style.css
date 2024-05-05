@@ -27,6 +27,7 @@
 div{
     text-align: center;
     background-image: url(IMAGES/background_parchment_s.png);
+    padding: 5%;
     width: 67%;
 }
 h1,h2,h3,p, a{
