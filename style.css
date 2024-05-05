@@ -27,7 +27,7 @@
 div{
     text-align: center;
     background-image: url(IMAGES/background_parchment_s.png);
-    width: 67%;
+    width: 50%;
 }
 h1,h2,h3,p, a{
     text-align: center;
@@ -38,7 +38,7 @@ h1{
 h2{
     font-size: 30px;
 }
-h3, a{
+h3{
     font-size: 24px;
 }
 p{
@@ -51,6 +51,7 @@ hr{
 }
 
 a {
+  font-size: 27px;
   outline-color: transparent;
 }
 
@@ -88,7 +89,7 @@ a:active {
     padding: 0;
     background: #fffbee;
     text-align: center; /* « The magic. */
-    width:75%
+    width:67%
 }
 
 .nav li {
