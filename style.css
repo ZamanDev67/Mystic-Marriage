@@ -2,7 +2,7 @@
 {
     font-family: 'Yeseva One', 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #182a55;
-    background-image: url(IMAGES/background_rug_offset.png);
+    background-image: url(IMAGES/background_rug_purple.png);
     cursor: url(IMAGES/rat_cursor.png), auto;
     display: flex;
     flex-direction: column;
@@ -15,8 +15,8 @@
   /* The image used */
 
 
-  /* Set a specific height
-  min-height: 500px;*/
+  /* Set a specific height*/
+  max-width: 100vw;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
