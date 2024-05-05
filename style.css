@@ -27,7 +27,7 @@
 div{
     text-align: center;
     background-image: url(IMAGES/background_parchment_s.png);
-    width: 50%;
+    width: 67%;
 }
 h1,h2,h3,p, a{
     text-align: center;
@@ -51,7 +51,7 @@ hr{
 }
 
 a {
-  font-size: 27px;
+  font-size: 28px;
   outline-color: transparent;
 }
 
