@@ -34,7 +34,7 @@
     box-shadow: 10px 10px #aaa38d;
 }
 
-.rsvp{
+#rsvp{
     color: #CC5500;
 }
 
@@ -63,10 +63,12 @@ hr{
 a {
   font-size: 26px;
   outline-color: transparent;
+  text-decoration: none;
 }
 
 a:link {
   color: black;
+
 }
 
 a:visited {
@@ -79,7 +81,6 @@ a:focus {
 }
 
 a:hover {
-  text-decoration: none;
   background: #fdefdb;
   cursor: url(IMAGES/rat_cursor_hover.png), auto;
 }
