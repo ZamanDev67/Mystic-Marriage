@@ -30,6 +30,7 @@
     margin: 5%;
     background-image: url(IMAGES/background_parchment_s.png);
     text-align: center;
+    border-width: 3px;
     border-color: gray;
 }
 
