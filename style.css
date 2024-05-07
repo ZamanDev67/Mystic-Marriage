@@ -34,7 +34,6 @@ div{
 }
 .center-column{
     margin: 5%;
-    width: 67%;
 }
 
 
@@ -128,5 +127,10 @@ rightflower{
   .center-column {
     width: 100%;
   }
+}
+@media screen and (min-width: 951px){
+    .center-column {
+        width: 67%;
+    }
 }
 
