@@ -109,7 +109,8 @@ a:active {
 }
 
 .dragme{
-	position:relative;
+    position:relative;
+    z-index: 0;
 }
 
 .squeeze {
