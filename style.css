@@ -1,5 +1,4 @@
-﻿body
-{
+﻿body{
     font-family: 'Yeseva One', 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #182a55;
     /*background-color:#fffbee;*/
@@ -109,13 +108,19 @@ a:active {
     padding: 10px;
 }
 
+.dragme{
+	position:relative;
+}
+
 .squeeze {
     border-image: url('/media/examples/border-diamonds.png') 30 fill / 30px / 30px space;
 }
+
 rightflower{
     background-image: url('IMAGES/flowerban.png');
     background-repeat: repeat-x;
 }
+
 .center {
   display: block;
   margin-left: auto;
